@@ -6,7 +6,7 @@ public class EmailToSend {
     private String html;
     private List<Attachment> attachments;
     private String subject;
-    private List<String> recipients;
+    private List<Recipient> recipients;
 
     public String getHtml() {
         return html;
@@ -20,7 +20,7 @@ public class EmailToSend {
         return subject;
     }
 
-    public List<String> getRecipients() {
+    public List<Recipient> getRecipients() {
         return recipients;
     }
 }
